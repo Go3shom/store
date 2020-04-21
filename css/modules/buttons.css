@@ -1,3 +1,13 @@
+.bg-gray {
+    background-color: blue;
+    margin: 5rem auto;
+    max-width: 80%;
+}
+.bg-gray h1,
+.bg-gray h2 {
+    color:turquoise;;
+}
+
 /* Button Default */
 .buttons {
     padding: 1em;

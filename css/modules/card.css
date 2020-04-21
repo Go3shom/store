@@ -6,13 +6,6 @@
     background-color: indigo;
 }
 
-.container {
-    max-width: 35em;
-    width: 90%;
-    margin: 0 auto;
-    border: 2px solid lime;
-}
-
 .product {
     max-width: 20em;
     /* border: 0.2em dashed hotpink; */
