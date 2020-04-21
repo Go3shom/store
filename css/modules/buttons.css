@@ -1,0 +1,64 @@
+/* Button Default */
+.buttons {
+    padding: 1em;
+    margin: 0 auto;
+    color: var(--clr-bg);
+}
+
+.btn {
+    background-color: var(--clr-primary, #2879fe);   
+    color: var(--clr-body, #ffffff);
+}
+
+/* Button Sizes */
+.btn-sm {
+    font-size: 1.2rem;
+}
+
+.btn-md {
+    font-size: 1.5rem;
+}
+
+.btn-lg {
+    font-size: 2rem;
+}
+
+/* Button Styles */
+.btn-rounded {
+    border-radius: 100vw;
+}
+
+
+
+/* Button Colors */
+.btn-clr-body {
+    background-color: var(--clr-body, #ffffff);
+    color: var(--clr-secondary, #003459);
+}
+.btn-clr-gray {
+    background-color: var(--clr-gray, #777777);
+    color: var(--clr-body, #ffffff);
+}
+.btn-clr-primary {
+    background-color: var(--clr-primary, #2879fe);
+    color: var(--clr-body, #ffffff);
+}
+.btn-clr-accent {
+    background-color: var(--clr-accent, #007ea7);
+    color: var(--clr-body, #ffffff);
+}
+.btn-clr-secondary {
+    background-color: var(--clr-secondary, #003459);
+    color: var(--clr-body, #ffffff);
+}
+.btn-clr-bg {
+    background-color: var(--clr-bg, #00171f);
+    color: var(--clr-body, #ffffff);
+}
+
+/* button interactivity */
+.btn:hover,
+.btn:focus {
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
