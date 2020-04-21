@@ -2,7 +2,8 @@
 
 ## Caution:
 
-#### This app resourses and idea is taken from **[Wokiee Shopify][1]** website. I built it from scratch using my own code, and it is **only** for **training purposes** and it's <span style="color:red">**NOT**</span> for **trading purpose**.
+#### This app resourses and idea is taken from **[Wokiee Shopify][1]** website. I built it from scratch using my own code, and it is **only** for **training purpose** _**NOT**_ for **trading purpose**.
+
 #### Thank you.
 
 
