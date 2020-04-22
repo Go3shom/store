@@ -32,40 +32,25 @@ body {
     font-size: 2rem; /* 20px */
     font-family: 'Tajawal', sans-serif;
     color: var(--clr-gray, #777777);
-    background-color: var(--clr-body, #ffffff);
+    background-color: var(--clr-bg, #00171f);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
+    margin-bottom: 1rem;
 }
+
 
 img {
     max-width: 100%;
     height: auto;
 }
 
-button {
-    border: none;
-    font-size: 1.5rem; /* 15px */
-    /* font-weight: 200; */
-    /* font-weight: 300; */
-    /* font-weight: 400; */
-    /* font-weight: 500; */
-    /* font-weight: 700; */
-    /* font-weight: 800; */
-    /* font-weight: 900; */
-    /* letter-spacing: 0.125rem; */
-    cursor: pointer;
-    margin: 0.5em ;
-    padding: 0.7em 1em;
-    border-radius: 1rem;
-    text-transform: uppercase;
-}
 
 a {
     text-decoration: none;
     color: var(--clr-body, #ffffff);
-
+    
 }
 
 a:hover,
@@ -76,6 +61,28 @@ a:focus {
 hr {
     /* color: var(--clr-gray, #777777); */
     color: lightgray;
+}
+
+button {
+    border: none;
+    font-size: 1.5rem; /* 15px */
+    cursor: pointer;
+    margin: 0.5em;
+    padding: 0.7em 1em;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    /* margin-top: -25rem; */
 }
 
 .container {
