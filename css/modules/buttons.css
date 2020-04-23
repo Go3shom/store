@@ -94,14 +94,20 @@ button {
     align-content: center;
     align-items: center;
 }
+
 .btn-focus,
 button:focus {
     outline: none;
     outline-offset: 0.3em;
+    box-shadow: 0 0 0 0.2em var(--clr-body),
+    0 0 0.2em 0.4em var(--clr-primary);
     
+}
+.nav button:focus {
     box-shadow: 0 0 0 0.2em var(--clr-secondary), 
     0 0 0.2em 0.4em var(--clr-accent);    
 }
+
 .btn-focus-2 {
     box-shadow: 0 0 0 0.2em var(--clr-bg), 
     0 0 0.2em 0.4em var(--clr-accent);
