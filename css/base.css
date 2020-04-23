@@ -29,7 +29,7 @@ html {
 
 body {
     margin: 0;
-    font-size: 2rem; /* 20px */
+    font-size: 3rem; /* 20px */
     font-family: 'Tajawal', sans-serif;
     color: var(--clr-gray, #777777);
     background-color: var(--clr-bg, #00171f);
@@ -40,12 +40,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
 }
 
-
-img {
-    max-width: 100%;
-    height: auto;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+li {
+    margin: 2em 3em;
+}
 
 a {
     text-decoration: none;
@@ -53,24 +56,30 @@ a {
     
 }
 
-a:hover,
-a:focus {
+a:hover {
     color: var(--clr-primary, #2879fe);
+}
+
+a:focus {
+    outline: 0.1em outset var(--clr-primary);    
+    box-shadow: 0 0 0.1em 0.2em var(--clr-bg),
+                0 0 0.1em 0.2em var(--clr-accent);
+}
+
+/* Remove buttons focus inner lines */
+::-moz-focus-inner,
+::-moz-focus-outer { 
+    border: none;
+}
+
+img {   
+    max-width: 100%;
+    height: auto;
 }
 
 hr {
     /* color: var(--clr-gray, #777777); */
     color: lightgray;
-}
-
-button {
-    border: none;
-    font-size: 1.5rem; /* 15px */
-    cursor: pointer;
-    margin: 0.5em;
-    padding: 0.7em 1em;
-    border-radius: 0.5em;
-    text-transform: uppercase;
 }
 
 figure {
@@ -89,6 +98,7 @@ figcaption {
     max-width: 35em;
     width: 90%;
     margin: 0 auto;
+    /* background-color: red; */
 }
 
 .navbar,
