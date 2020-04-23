@@ -29,7 +29,7 @@ html {
 
 body {
     margin: 0;
-    font-size: 3rem; /* 20px */
+    font-size: 2rem; /* 20px */
     font-family: 'Tajawal', sans-serif;
     color: var(--clr-gray, #777777);
     background-color: var(--clr-bg, #00171f);
@@ -41,19 +41,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.3em solid brown;
+    /* align-items: center; */
+    
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 li {
-    margin: 2em 3em;
+    margin: 0.5em auto;
 }
 
 a {
     text-decoration: none;
     color: var(--clr-body, #ffffff);
-    
 }
 
 a:hover {
