@@ -67,9 +67,9 @@ a:hover {
 }
 
 a:focus {
-    outline: 0.1em outset var(--clr-primary);    
-    box-shadow: 0 0 0.1em 0.2em var(--clr-bg),
-                0 0 0.1em 0.2em var(--clr-accent);
+    outline: 0.1em outset var(--clr-primary, #2879fe);    
+    box-shadow: 0 0 0.1em 0.2em var(--clr-bg, #00171f),
+                0 0 0.1em 0.2em var(--clr-accent, #007ea7);
 }
 
 /* Remove buttons focus inner lines */
@@ -105,7 +105,7 @@ figcaption {
     max-width: 35em;
     width: 90%;
     margin: 0 auto;
-    border: 0.1em solid red;
+    /* border: 0.1em solid red; */
 }
 
 footer {
@@ -113,7 +113,7 @@ footer {
 }
 .nav {
     background-color: var(--clr-bg, #00171f);
-    background-color: var(--clr-accent);
+    background-color: var(--clr-accent, #007ea7);
     opacity: 0.8;
 }
 

@@ -7,8 +7,9 @@
 /*     
 background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%); 
 */
-
-/* background-image: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%); */
+/* 
+background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%); 
+*/
 
 }
 .bg-blue h1,
@@ -34,11 +35,10 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba
 .btn,
 button {
     border: 2em;
-    border-color: var(--clr-primary);
+    border-color: var(--clr-primary, #2879fe);
     font-size: 1.5rem; /* 15px */
     cursor: pointer;
     margin: 0.5em;
-    /* margin: 1em auto; */
     padding: 0.7em 1em;
     border-radius: 0.5em;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ button {
 .buttons {
     padding: 1em;
     margin: 0 auto;
-    color: var(--clr-bg);
+    color: var(--clr-bg, #00171f);
 }
 .btn {
     background-color: var(--clr-primary, #2879fe);   
@@ -151,7 +151,7 @@ button {
                 0em 0.8rem 0.2em hsl(0, 0%, 5%),
                 0em 0.9rem 0.1em hsl(0, 0%, 0%);
 */
-                box-shadow: inset 
+    box-shadow: inset 
                 0em 0.1rem 1.0em hsl(0, 0%, 100%),
                 0em 0.2rem 0.9em hsl(0, 0%, 10%),
                 0em 0.2rem 0.8em hsl(0, 0%, 70%),
@@ -236,31 +236,29 @@ button {
 */
 .btn-hover__body--glow {
     box-shadow: inset 
-    0em 0.1rem 1.0em hsl(0, 0%, 100%),
-    0em 0.2rem 0.9em hsl(0, 0%, 65%),
-    0em 0.2rem 0.8em hsl(0, 0%, 70%),
-    0em 0.3rem 0.7em hsl(0, 0%, 75%),
-    0em 0.4rem 0.6em hsl(0, 0%, 50%),
-    0em 0.5rem 0.5em hsl(0, 0%, 30%),
-    0em 0.6rem 0.4em hsl(0, 0%, 70%),
-    0em 0.7rem 0.3em hsl(0, 0%, 80%),
-    0em 0.8rem 0.2em hsl(0, 0%, 90%),
-    0em 0.9rem 0.1em hsl(0, 0%, 100%);
-
+                0em 0.1rem 1.0em hsl(0, 0%, 100%),
+                0em 0.2rem 0.9em hsl(0, 0%, 65%),
+                0em 0.2rem 0.8em hsl(0, 0%, 70%),
+                0em 0.3rem 0.7em hsl(0, 0%, 75%),
+                0em 0.4rem 0.6em hsl(0, 0%, 50%),
+                0em 0.5rem 0.5em hsl(0, 0%, 30%),
+                0em 0.6rem 0.4em hsl(0, 0%, 70%),
+                0em 0.7rem 0.3em hsl(0, 0%, 80%),
+                0em 0.8rem 0.2em hsl(0, 0%, 90%),
+                0em 0.9rem 0.1em hsl(0, 0%, 100%);
 }
 .btn-hover__gray--glow {
     box-shadow: inset 
-    0em 0.1rem 1.0em hsl(0, 0%, 46%),
-    0em 0.2rem 0.9em hsl(0, 0%, 65%),
-    0em 0.2rem 0.8em hsl(0, 0%, 70%),
-    0em 0.3rem 0.7em hsl(0, 0%, 75%),
-    0em 0.4rem 0.6em hsl(0, 0%, 50%),
-    0em 0.5rem 0.5em hsl(0, 0%, 30%),
-    0em 0.6rem 0.4em hsl(0, 0%, 5%),
-    0em 0.7rem 0.3em hsl(0, 0%, 3%),
-    0em 0.8rem 0.2em hsl(0, 0%, 1%),
-    0em 0.9rem 0.1em hsl(0, 0%, 0%);
-
+                0em 0.1rem 1.0em hsl(0, 0%, 46%),
+                0em 0.2rem 0.9em hsl(0, 0%, 65%),
+                0em 0.2rem 0.8em hsl(0, 0%, 70%),
+                0em 0.3rem 0.7em hsl(0, 0%, 75%),
+                0em 0.4rem 0.6em hsl(0, 0%, 50%),
+                0em 0.5rem 0.5em hsl(0, 0%, 30%),
+                0em 0.6rem 0.4em hsl(0, 0%, 5%),
+                0em 0.7rem 0.3em hsl(0, 0%, 3%),
+                0em 0.8rem 0.2em hsl(0, 0%, 1%),
+                0em 0.9rem 0.1em hsl(0, 0%, 0%);
 }
 .btn-hover__primary--glow {
     box-shadow: inset 
@@ -302,18 +300,17 @@ button {
     0em 0.8rem 0.2em hsl(194.7, 100%, 1%),
     0em 0.9rem 0.1em hsl(194.7, 100%, 0%);
 */
-        box-shadow: inset 
-        0em 0.1rem 1.0em hsl(194.7, 100%, 32%),
-        0em 0.2rem 0.9em hsl(194.7, 100%, 65%),
-        0em 0.2rem 0.8em hsl(194.7, 100%, 70%),
-        0em 0.3rem 0.7em hsl(194.7, 100%, 75%),
-        0em 0.4rem 0.6em hsl(194.7, 100%, 50%),
-        0em 0.5rem 0.5em hsl(194.7, 100%, 30%),
-        0em 0.6rem 0.4em hsl(194.7, 100%, 5%),
-        0em 0.7rem 0.3em hsl(194.7, 100%, 3%),
-        0em 0.8rem 0.2em hsl(194.7, 100%, 1%),
-        0em 0.9rem 0.1em hsl(194.7, 100%, 0%);
-            
+    box-shadow: inset 
+                0em 0.1rem 1.0em hsl(194.7, 100%, 32%),
+                0em 0.2rem 0.9em hsl(194.7, 100%, 65%),
+                0em 0.2rem 0.8em hsl(194.7, 100%, 70%),
+                0em 0.3rem 0.7em hsl(194.7, 100%, 75%),
+                0em 0.4rem 0.6em hsl(194.7, 100%, 50%),
+                0em 0.5rem 0.5em hsl(194.7, 100%, 30%),
+                0em 0.6rem 0.4em hsl(194.7, 100%, 5%),
+                0em 0.7rem 0.3em hsl(194.7, 100%, 3%),
+                0em 0.8rem 0.2em hsl(194.7, 100%, 1%),
+                0em 0.9rem 0.1em hsl(194.7, 100%, 0%);                
 }
 .btn-hover__secondary--glow {
     box-shadow: inset 
@@ -343,16 +340,16 @@ button {
 }
 .btn-hover__bg--glow {
     box-shadow: inset 
-    0em 0.1rem 1.0em hsl(195.5, 100%, 6%),
-    0em 0.2rem 0.9em hsl(195.5, 100%, 65%),
-    0em 0.2rem 0.8em hsl(195.5, 100%, 70%),
-    0em 0.3rem 0.7em hsl(195.5, 100%, 75%),
-    0em 0.4rem 0.6em hsl(195.5, 100%, 50%),
-    0em 0.5rem 0.5em hsl(195.5, 100%, 30%),
-    0em 0.6rem 0.4em hsl(195.5, 100%, 5%),
-    0em 0.7rem 0.3em hsl(195.5, 100%, 3%),
-    0em 0.8rem 0.2em hsl(195.5, 100%, 1%),
-    0em 0.9rem 0.1em hsl(195.5, 100%, 0%); 
+                0em 0.1rem 1.0em hsl(195.5, 100%, 6%),
+                0em 0.2rem 0.9em hsl(195.5, 100%, 65%),
+                0em 0.2rem 0.8em hsl(195.5, 100%, 70%),
+                0em 0.3rem 0.7em hsl(195.5, 100%, 75%),
+                0em 0.4rem 0.6em hsl(195.5, 100%, 50%),
+                0em 0.5rem 0.5em hsl(195.5, 100%, 30%),
+                0em 0.6rem 0.4em hsl(195.5, 100%, 5%),
+                0em 0.7rem 0.3em hsl(195.5, 100%, 3%),
+                0em 0.8rem 0.2em hsl(195.5, 100%, 1%),
+                0em 0.9rem 0.1em hsl(195.5, 100%, 0%); 
 /* 
     box-shadow: inset 
     0em 0.1rem 1.0em hsl(195.5, 100%, 6%),
@@ -368,17 +365,16 @@ button {
 */
     
 }
-
-
-.btn-hover:hover {
-    box-shadow: none;
-    transition: box-shadow ease-in-out 0.5s;
-}
 /*
 ********************
 |** BUTTON FOCUS **|
 ********************
 */
+.btn-hover:hover {
+    box-shadow: none;
+    transition: box-shadow ease-in-out 0.5s;
+}
+
 .focus {
     background-color: var(--clr-bg, #00171f); 
     padding: 2em;
@@ -397,26 +393,26 @@ h2 + small {
 button:focus {
     outline: none;
     outline-offset: 0.3em;
-    box-shadow: 0 0 0 0.2em var(--clr-body),
-                0 0 0.2em 0.4em var(--clr-primary);
+    box-shadow: 0 0 0 0.2em var(--clr-body, #ffffff),
+                0 0 0.2em 0.4em var(--clr-primary, #2879fe);
 }
 .nav button:focus {
-    box-shadow: 0 0 0 0.2em var(--clr-secondary), 
-                0 0 0.2em 0.4em var(--clr-accent);    
+    box-shadow: 0 0 0 0.2em var(--clr-secondary, #003459), 
+                0 0 0.2em 0.4em var(--clr-accent, #007ea7);    
 }
 .btn-focus-2 {
-    box-shadow: 0 0 0 0.2em var(--clr-bg), 
-                0 0 0.2em 0.4em var(--clr-accent);
+    box-shadow: 0 0 0 0.2em var(--clr-bg, #00171f), 
+                0 0 0.2em 0.4em var(--clr-accent, #007ea7);
 }
 .btn-focus-3 {
-    box-shadow: 0 0 0 0.2em var(--clr-body),
-                0 0 0.2em 0.4em var(--clr-primary);
+    box-shadow: 0 0 0 0.2em var(--clr-body, #ffffff),
+                0 0 0.2em 0.4em var(--clr-primary, #007ea7);
 }
 .btn-focus-4 {
-    box-shadow: 0 0 0 0.2em var(--clr-secondary), 
-                0 0 0.2em 0.4em var(--clr-gray);
+    box-shadow: 0 0 0 0.2em var(--clr-secondary, #003459), 
+                0 0 0.2em 0.4em var(--clr-gray, #777777);
 }
 .btn-focus-5 {
-    box-shadow: 0 0 0 0.2em var(--clr-bg), 
-                0 0 0.2em 0.4em var(--clr-accent);
+    box-shadow: 0 0 0 0.2em var(--clr-bg, #00171f), 
+                0 0 0.2em 0.4em var(--clr-accent, #007ea7);
 }
