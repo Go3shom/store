@@ -18,6 +18,13 @@
     --clr-accent: #007ea7;
     --clr-secondary: #003459;
     --clr-bg: #00171f;
+    
+    --HSLclr-body:hsl(0,0%,100%);
+    --HSLclr-gray:hsl(0,0%,46.7%);
+    --HSLclr-primary:hsl(217.3,99.1%,57.6%);
+    --HSLclr-accent:hsl(194.7,100%,32.7%);
+    --HSLclr-secondary:hsl(204.9,100%,17.5%);
+    --HSLclr-bg:hsl(195.5,100%,6.1%);
 }
 
 html { 
@@ -66,6 +73,7 @@ a:focus {
 }
 
 /* Remove buttons focus inner lines */
+
 ::-moz-focus-inner,
 ::-moz-focus-outer { 
     border: none;
