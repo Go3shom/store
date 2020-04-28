@@ -110,6 +110,7 @@ figcaption {
 
 footer {
     background-color: var(--clr-bg, #00171f);
+    padding: 3em;
 }
 .nav {
     background-color: var(--clr-bg, #00171f);
